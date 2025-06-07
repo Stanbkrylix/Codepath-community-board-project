@@ -1,19 +1,11 @@
 import { useState } from "react";
 import Card from "./Components/Card";
-import waterFront from "./assets/GGWaterfrontRestaurant.jpg";
-
+import cardArray from "./JS/cardArray";
+// import waterFront from "./assets/GGWaterfrontRestaurant.jpg";
+// ./assets/GGWaterfrontRestaurant.jpg
 import "./App.css";
 
 function App() {
-    const cardArray = [
-        {
-            img: waterFront,
-            name: "GG's Waterfront",
-            type: "American",
-            link: "https://places.singleplatform.com/giorgios-grill/menu?ref=Yahoo#menu_887845",
-        },
-    ];
-
     return (
         <div className="main-container">
             <h2>Restaurant Favorites </h2>
