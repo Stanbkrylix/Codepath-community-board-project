@@ -24,6 +24,34 @@ function App() {
                     restaurantType={cardArray[0].type}
                     website={cardArray[0].link}
                 />
+
+                <Card
+                    imgSrc={cardArray[0].img}
+                    restaurantName={cardArray[0].name}
+                    restaurantType={cardArray[0].type}
+                    website={cardArray[0].link}
+                />
+
+                <Card
+                    imgSrc={cardArray[0].img}
+                    restaurantName={cardArray[0].name}
+                    restaurantType={cardArray[0].type}
+                    website={cardArray[0].link}
+                />
+
+                <Card
+                    imgSrc={cardArray[0].img}
+                    restaurantName={cardArray[0].name}
+                    restaurantType={cardArray[0].type}
+                    website={cardArray[0].link}
+                />
+
+                <Card
+                    imgSrc={cardArray[0].img}
+                    restaurantName={cardArray[0].name}
+                    restaurantType={cardArray[0].type}
+                    website={cardArray[0].link}
+                />
             </div>
         </div>
     );
