@@ -10,40 +10,17 @@ function App() {
         <div className="main-container">
             <h2>Restaurant Favorites </h2>
             <div className="card-container">
-                <Card
-                    imgSrc={cardArray[0].img}
-                    restaurantName={cardArray[0].name}
-                    restaurantType={cardArray[0].type}
-                    website={cardArray[0].link}
-                />
-
-                <Card
-                    imgSrc={cardArray[0].img}
-                    restaurantName={cardArray[0].name}
-                    restaurantType={cardArray[0].type}
-                    website={cardArray[0].link}
-                />
-
-                <Card
-                    imgSrc={cardArray[0].img}
-                    restaurantName={cardArray[0].name}
-                    restaurantType={cardArray[0].type}
-                    website={cardArray[0].link}
-                />
-
-                <Card
-                    imgSrc={cardArray[0].img}
-                    restaurantName={cardArray[0].name}
-                    restaurantType={cardArray[0].type}
-                    website={cardArray[0].link}
-                />
-
-                <Card
-                    imgSrc={cardArray[0].img}
-                    restaurantName={cardArray[0].name}
-                    restaurantType={cardArray[0].type}
-                    website={cardArray[0].link}
-                />
+                {cardArray.map((item) => {
+                    return (
+                        <Card
+                            imgSrc={item.img}
+                            restaurantName={item.name}
+                            restaurantType={item.type}
+                            website={item.link}
+                            key={item.id}
+                        />
+                    );
+                })}
             </div>
         </div>
     );

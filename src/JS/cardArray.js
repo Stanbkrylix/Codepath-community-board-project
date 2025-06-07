@@ -36,14 +36,14 @@ const cardArray = [
     },
     {
         id: 6,
-        img: "/assets/Orale.jpg",
+        img: "/assets/orale.jpg",
         name: "Orale",
         type: "Mexican",
         link: "https://places.singleplatform.com/orale-mexican-restaurant/menu?ref=Yahoo",
     },
     {
         id: 7,
-        img: "/assets/OceanValley.jpg",
+        img: "/assets/OceanAlley.jpg",
         name: "Ocean Valley",
         type: "Italian",
         link: "https://places.singleplatform.com/ocean-alley-restaurant/menu?ref=Yahoo",
@@ -65,7 +65,7 @@ const cardArray = [
     {
         id: 10,
         img: "/assets/ElPaso2.jpg",
-        name: "El Paso II",
+        name: "El Paso lI",
         type: "Mexican",
         link: "https://places.singleplatform.com/el-paso-ii/menu?ref=Yahoo",
     },
