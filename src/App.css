@@ -6,10 +6,43 @@
 }
 
 .card {
-    padding: 2em;
-    border: 1px solid black;
+    /* padding: 2em; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
     width: 300px;
 }
 img {
     width: 100%;
+    /* display: block; */
+    vertical-align: bottom;
+}
+.card-description {
+    padding: 0.2rem 0 0.8rem 0;
+    background-color: #fff;
+    color: black;
+    border-bottom-left-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+}
+
+.card-description h2 {
+    margin: auto;
+}
+.card-description p {
+    margin: auto;
+    margin-bottom: 1.4rem;
+}
+.card-description a {
+    text-decoration: none;
+    background-color: rgba(243, 0, 0, 0.719);
+    color: #fff;
+    padding: 0.4rem;
+    margin-bottom: 0.4rem;
+    border-radius: 0.4rem;
+}
+
+.card-description a:hover {
+    text-decoration: underline;
+    /* border: 1px solid black; */
 }
