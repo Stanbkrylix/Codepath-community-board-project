@@ -8,7 +8,7 @@ import "./App.css";
 function App() {
     return (
         <div className="main-container">
-            <h2>Restaurant Favorites </h2>
+            <h2 className="main-heading">Favorite Restaurant </h2>
             <div className="card-container">
                 {cardArray.map((item) => {
                     return (
